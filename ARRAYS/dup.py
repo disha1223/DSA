@@ -18,3 +18,4 @@ class solution:#26/06/2026
 #i moves
 #then copies 3 new number to i 
 #now its in=1,0 and in=2,3 
+#two pattern 
