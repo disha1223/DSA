@@ -1,7 +1,7 @@
 class Solution:
-    def insertAtHead(self, ListNode,head, x):
+    def insertAtHead(self, ListHead, x):
 
         newNode = ListNode(x)
-        newNode.next = head
+        newNode.next = ListHead
 
         return newNode
