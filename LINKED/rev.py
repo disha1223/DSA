@@ -3,8 +3,8 @@ class solution:
         temp=head
         prev=None
         while temp:
-            front=temp.next
-            temp.next=prev
+            front=head.next 
+            temp.next=prev #reverselink
             prev=temp
             temp=front
         return prev
