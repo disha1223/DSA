@@ -1,15 +1,16 @@
-class solution: #25/06/2026
+n = int(input())                      # read the count
+arr = list(map(int, input().split())) # read the array on one line
 
-    def second(self,arr):
-        largest=arr[0]
-        second=-1
+largest = arr[0]
+second = -1
 
-        for i in arr:
-            if i>largest:
-                largest=i
-            elif i>second and i!=largest:
-                second= i
+for i in arr[1:]:
+    if i > largest:
+        second = largest
+        largest = i
+    elif i > second and i != largest:
+        second = i
 
-        return second
+print(second)
 
-            
+#5/08/2026
